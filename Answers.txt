@@ -1,0 +1,54 @@
+
+Question 1
+----------
+Why could missing data ("NaN") be problematic for machine learning models?
+
+
+
+Bonus Question 1
+----------------
+Choose another feature and create a similar bar graph in the code cell below. Save your graph and describe any trends you observe: Does the selected feature predict survival?
+
+
+
+Question 2
+----------
+Which are the top 3 feature pairs that are most strongly (positively or negatively) correlated? Try to explain one of these relationships.
+
+
+
+Question 3
+----------
+For each of the features `PassengerId`, `Name`, and `Ticket`, can you think of a reason why they may or may not contribute to our model? If you were to delete a further feature from the data set, which one would you delete and why?
+
+
+
+Bonus Question 2 
+----------------
+In general, what could be good reasons to confine ourselves to the most relevant features in the data?
+
+
+
+Bonus Question 3    
+----------------
+One issue with replacing the port designations S, C, and Q by 0, 1, and 2 is that machine learning algorithms will assume that two nearby values are more similar than two distant values. This may be fine in some cases (e.g. for ordered categories such as "bad", "average", "good", and "excellent"), but it is obviously not the case for the `Embarked` column. Can you come up with an alternative replacement scheme to avoid this problem?
+
+
+
+
+Question 4
+----------
+What could be better ways to replace the many missing age values than just using one single value (the median) for all of them?
+
+
+
+Question 5
+----------
+Why do you think is it reasonable to split the `Age` and `Fare` features into groups?
+
+
+
+
+Bonus Question 4    
+----------------
+The code below repeats the splitting of the data, the training of the model, and its evaluation using the test set 1000 times. The accuracies obtained are displayed as a histogram. Can you explain why we get different accuracy values despite running the same code? What would be therefore a useful piece of information when evaluating the accuracy of a model? 

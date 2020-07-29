@@ -51,4 +51,4 @@ Why do you think is it reasonable to split the `Age` and `Fare` features into gr
 
 Bonus Question 4    
 ----------------
-The code below repeats the splitting of the data, the training of the model, and its evaluation using the test set 1000 times. The accuracies obtained are displayed as a histogram. Can you explain why we get different accuracy values despite running the same code? What would be therefore a useful piece of information when evaluating the accuracy of a model? 
+The code below repeats the splitting of the data, the training of the model, and its evaluation using the test set 100 times. The accuracies obtained are displayed as a histogram. Can you explain why we get different accuracy values despite running the same code? What would be therefore a useful piece of information when evaluating the accuracy of a model? 
